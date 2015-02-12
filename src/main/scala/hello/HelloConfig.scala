@@ -18,5 +18,5 @@ class HelloConfig
 {
 @RequestMapping (value = Array("/"), method = Array (RequestMethod.GET))
 @ResponseBody
-def home(): String = "Hello Scala!!"
+def home(): String = "Hello World!!"
   }
